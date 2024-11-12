@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "culebra-resumme"
+version = "0.1.0"
+description = ""
+authors = ["Fritz Henrique <fritzhenrique.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.4"
+uvicorn = "^0.32.0"
+pdfkit = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
