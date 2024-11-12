@@ -2,4 +2,5 @@
 .fleet/
 .vscode/
 
+poetry.lock
 culebra_resume/__pycache__/*
