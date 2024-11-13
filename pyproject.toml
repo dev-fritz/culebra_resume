@@ -10,6 +10,7 @@ python = "^3.12"
 fastapi = "^0.115.4"
 uvicorn = "^0.32.0"
 pdfkit = "^1.0.0"
+asyncpg = "^0.30.0"
 
 
 [build-system]
