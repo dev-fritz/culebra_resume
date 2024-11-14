@@ -3,4 +3,4 @@
 .vscode/
 
 poetry.lock
-culebra_resume/__pycache__/*
+*/__pycache__/
