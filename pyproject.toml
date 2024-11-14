@@ -10,11 +10,7 @@ python = "^3.12"
 fastapi = {extras = ["standard"], version = "^0.115.5"}
 uvicorn = "^0.32.0"
 pdfkit = "^1.0.0"
-<<<<<<< HEAD
-asyncpg = "^0.30.0"
-=======
 sqlmodel = "^0.0.22"
->>>>>>> e294b71 (reafactor: update pyptoject.toml to added dependencies and change project version)
 
 
 [build-system]
