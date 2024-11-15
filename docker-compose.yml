@@ -1,0 +1,22 @@
+services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: resume
+      MYSQL_USER: fritz
+      MYSQL_PASSWORD: 0512
+    ports:
+      - "3306:3306"
+    volumes:
+      - /var/lib/mysql
+    networks:
+      - app-network
+
+volumes:
+  mysql-data:
+    driver: local
+
+networks:
+  app-network:
+    driver: bridge
